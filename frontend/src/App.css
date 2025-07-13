@@ -256,7 +256,16 @@ section {
 
 /* About Section */
 .about-section {
-  background: #f8f9fa;
+  background: linear-gradient(135deg, #EF88AD 0%, #A53860 100%);
+  color: white;
+}
+
+.about-section .section-title {
+  color: white;
+}
+
+.about-section .section-title::after {
+  background: linear-gradient(90deg, white, rgba(255, 255, 255, 0.7));
 }
 
 .about-content {
@@ -277,10 +286,11 @@ section {
 }
 
 .about-description {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.8;
-  color: #555;
+  color: rgba(255, 255, 255, 0.95);
   margin-bottom: 40px;
+  font-weight: 300;
 }
 
 .about-highlights {
@@ -290,26 +300,33 @@ section {
 
 .highlight-item {
   text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .highlight-number {
   display: block;
   font-size: 2.5rem;
   font-weight: 900;
-  color: #670D2F;
+  color: white;
   line-height: 1;
 }
 
 .highlight-text {
   font-size: 0.9rem;
-  color: #666;
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 600;
+  margin-top: 5px;
 }
 
 .about-image {
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+  border: 3px solid rgba(255, 255, 255, 0.2);
 }
 
 .about-image img {
