@@ -806,6 +806,26 @@ section {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+  
+  .profile-placeholder {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .profile-ring {
+    width: 240px;
+    height: 240px;
+  }
+  
+  .profile-initials {
+    font-size: 3rem;
+  }
+  
   .hero-name {
     font-size: 2.5rem;
   }
@@ -814,9 +834,14 @@ section {
     font-size: 1.5rem;
   }
   
-  .hero-contact {
-    flex-direction: column;
-    gap: 10px;
+  .hero-stats {
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .hero-links {
+    justify-content: center;
+    flex-wrap: wrap;
   }
   
   .about-content {
@@ -873,5 +898,14 @@ section {
   .hero-links {
     flex-direction: column;
     align-items: center;
+  }
+  
+  .project-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .project-icon {
+    align-self: center;
   }
 }
