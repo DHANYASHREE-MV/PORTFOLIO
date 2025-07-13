@@ -215,37 +215,81 @@ function App() {
         <h2 className="section-title">Featured Projects</h2>
         <div className="projects-grid">
           <div className="project-card">
-            <div className="project-image">
-              <img src="https://images.pexels.com/photos/8728386/pexels-photo-8728386.jpeg" alt="IoT Project" />
+            <div className="project-header">
+              <div className="project-icon">🌊</div>
+              <div className="project-meta">
+                <h3>PURE FLOW</h3>
+                <p className="project-subtitle">IoT-Based Water Quality Monitoring System</p>
+              </div>
             </div>
             <div className="project-content">
-              <h3>PURE FLOW</h3>
-              <p className="project-subtitle">IoT-Based Water Quality Monitoring System</p>
               <p>Designed and implemented an Arduino ESP32 system equipped with multiple sensors to perform real-time water quality monitoring, capturing parameters like pH, turbidity, and temperature. Integrated cloud connectivity and IoT visualization by linking the system to the Blynk platform, enabling remote data access, live monitoring, and real-time alerts.</p>
+              <div className="project-technologies">
+                <span className="tech-tag">Arduino ESP32</span>
+                <span className="tech-tag">IoT</span>
+                <span className="tech-tag">Blynk</span>
+                <span className="tech-tag">Sensors</span>
+              </div>
             </div>
           </div>
           
           <div className="project-card">
+            <div className="project-header">
+              <div className="project-icon">🏥</div>
+              <div className="project-meta">
+                <h3>DIAGNO-GENIE</h3>
+                <p className="project-subtitle">Machine Learning Multiple Disease Prediction System</p>
+              </div>
+            </div>
             <div className="project-content">
-              <h3>DIAGNO-GENIE</h3>
-              <p className="project-subtitle">Machine Learning Multiple Disease Prediction System</p>
               <p>Built a web-based Multiple Disease Prediction System using machine learning to predict Diabetes, Heart Disease, and Parkinson's Disease from user input. Developed ML pipelines for training and evaluation, with integrated experiment tracking and artifact logging via MLflow. The application features an interactive Streamlit interface, automated model reporting, and Docker-based deployment for portability.</p>
+              <div className="project-technologies">
+                <span className="tech-tag">Machine Learning</span>
+                <span className="tech-tag">Streamlit</span>
+                <span className="tech-tag">MLflow</span>
+                <span className="tech-tag">Docker</span>
+                <span className="tech-tag">Python</span>
+              </div>
             </div>
           </div>
 
           <div className="project-card">
+            <div className="project-header">
+              <div className="project-icon">🦌</div>
+              <div className="project-meta">
+                <h3>WILD GUARD AI</h3>
+                <p className="project-subtitle">Deep Learning + Computer Vision</p>
+              </div>
+            </div>
             <div className="project-content">
-              <h3>WILD GUARD AI</h3>
-              <p className="project-subtitle">Deep Learning + Computer Vision</p>
               <p>Developed a real-time wildlife monitoring system using YOLOv11 for detecting poachers, rangers, and tourists from camera images. Integrated a Streamlit-based frontend to support real-time image uploads and display detection results in an interactive, scrollable layout. Implemented automated SMS alerts via Twilio API to notify authorities instantly when poachers are detected.</p>
+              <div className="project-technologies">
+                <span className="tech-tag">YOLOv11</span>
+                <span className="tech-tag">Computer Vision</span>
+                <span className="tech-tag">Streamlit</span>
+                <span className="tech-tag">Twilio API</span>
+                <span className="tech-tag">Deep Learning</span>
+              </div>
             </div>
           </div>
 
           <div className="project-card">
+            <div className="project-header">
+              <div className="project-icon">🌍</div>
+              <div className="project-meta">
+                <h3>OZONE LEVEL FORECASTING</h3>
+                <p className="project-subtitle">Air Quality Visualization System</p>
+              </div>
+            </div>
             <div className="project-content">
-              <h3>OZONE LEVEL FORECASTING</h3>
-              <p className="project-subtitle">Air Quality Visualization System</p>
               <p>Developed a deep learning-based ozone forecasting system using LSTM models to predict monthly ozone levels from 2024 to 2027 across seven major locations in Bangalore, aimed at improving air quality insights and supporting public health awareness initiatives. The project leveraged Python, TensorFlow, Keras, Pandas, NumPy, Matplotlib, Seaborn, and Streamlit, with all data processed from structured CSV files for multi-location forecasting.</p>
+              <div className="project-technologies">
+                <span className="tech-tag">LSTM</span>
+                <span className="tech-tag">TensorFlow</span>
+                <span className="tech-tag">Keras</span>
+                <span className="tech-tag">Data Visualization</span>
+                <span className="tech-tag">Streamlit</span>
+              </div>
             </div>
           </div>
         </div>
