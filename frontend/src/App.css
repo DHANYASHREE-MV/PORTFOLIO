@@ -632,6 +632,19 @@ section {
 }
 
 /* Leadership Section */
+.leadership-section {
+  background: linear-gradient(135deg, #EF88AD 0%, #A53860 100%);
+  color: white;
+}
+
+.leadership-section .section-title {
+  color: white;
+}
+
+.leadership-section .section-title::after {
+  background: linear-gradient(90deg, white, rgba(255, 255, 255, 0.7));
+}
+
 .leadership-content {
   max-width: 800px;
   margin: 0 auto;
@@ -640,37 +653,48 @@ section {
 }
 
 .leadership-item, .activities-item {
-  background: white;
+  background: rgba(255, 255, 255, 0.1);
   padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  border-left: 4px solid #EF88AD;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  border-left: 4px solid white;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .leadership-item h3, .activities-item h3 {
-  font-size: 1.3rem;
-  color: #670D2F;
+  font-size: 1.4rem;
+  color: white;
   margin-bottom: 15px;
+  font-weight: 700;
 }
 
 .leadership-item p {
-  color: #666;
+  color: rgba(255, 255, 255, 0.9);
   line-height: 1.7;
+  font-size: 1.1rem;
 }
 
 .activities-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
 .activity-tag {
-  background: linear-gradient(135deg, #670D2F, #A53860);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
   color: white;
-  padding: 8px 16px;
+  padding: 10px 18px;
   border-radius: 25px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.activity-tag:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
 }
 
 /* Contact Section */
