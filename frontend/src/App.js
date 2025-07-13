@@ -13,28 +13,65 @@ function App() {
   });
   const [submitStatus, setSubmitStatus] = useState('');
 
-  // Hero Section with animated background
+  // Hero Section with professional layout
   const HeroSection = () => (
     <section className="hero-section">
       <div className="hero-overlay">
-        <div className="hero-content">
-          <h1 className="hero-name">DHANYASHREE M V</h1>
-          <h2 className="hero-title">AI/ML Engineering Student</h2>
-          <p className="hero-tagline">
-            Building intelligent, user-focused solutions through code and creativity
-          </p>
-          <div className="hero-contact">
-            <span>📍 Bengaluru, Karnataka</span>
-            <span>📧 dhanyashreem@gmail.com</span>
-            <span>📱 +91 8860769397</span>
+        <div className="hero-container">
+          <div className="hero-left">
+            <div className="profile-picture-area">
+              <div className="profile-placeholder">
+                <span className="profile-initials">DM</span>
+              </div>
+              <div className="profile-ring"></div>
+            </div>
           </div>
-          <div className="hero-links">
-            <a href="https://www.linkedin.com/in/dhanyashree-mv-27d/" target="_blank" rel="noopener noreferrer" className="social-link">
-              LinkedIn
-            </a>
-            <a href="https://github.com/DHANYASHREE-MV" target="_blank" rel="noopener noreferrer" className="social-link">
-              GitHub
-            </a>
+          <div className="hero-right">
+            <div className="hero-content">
+              <h1 className="hero-name">DHANYASHREE M V</h1>
+              <h2 className="hero-title">AI/ML Engineering Student</h2>
+              <p className="hero-tagline">
+                Building intelligent, user-focused solutions through code and creativity
+              </p>
+              <div className="hero-details">
+                <div className="detail-item">
+                  <span className="detail-icon">📍</span>
+                  <span>Bengaluru, Karnataka</span>
+                </div>
+                <div className="detail-item">
+                  <span className="detail-icon">📧</span>
+                  <span>dhanyashreem@gmail.com</span>
+                </div>
+                <div className="detail-item">
+                  <span className="detail-icon">📱</span>
+                  <span>+91 8860769397</span>
+                </div>
+              </div>
+              <div className="hero-stats">
+                <div className="stat-item">
+                  <span className="stat-number">4+</span>
+                  <span className="stat-label">Projects</span>
+                </div>
+                <div className="stat-item">
+                  <span className="stat-number">6+</span>
+                  <span className="stat-label">Technologies</span>
+                </div>
+                <div className="stat-item">
+                  <span className="stat-number">2</span>
+                  <span className="stat-label">Leadership Roles</span>
+                </div>
+              </div>
+              <div className="hero-links">
+                <a href="https://www.linkedin.com/in/dhanyashree-mv-27d/" target="_blank" rel="noopener noreferrer" className="social-link">
+                  <span className="social-icon">💼</span>
+                  LinkedIn
+                </a>
+                <a href="https://github.com/DHANYASHREE-MV" target="_blank" rel="noopener noreferrer" className="social-link">
+                  <span className="social-icon">💻</span>
+                  GitHub
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
