@@ -448,6 +448,19 @@ section {
 }
 
 /* Experience Section */
+.experience-section {
+  background: linear-gradient(135deg, #A53860 0%, #EF88AD 100%);
+  color: white;
+}
+
+.experience-section .section-title {
+  color: white;
+}
+
+.experience-section .section-title::after {
+  background: linear-gradient(90deg, white, rgba(255, 255, 255, 0.7));
+}
+
 .experience-timeline {
   max-width: 800px;
   margin: 0 auto;
@@ -459,33 +472,36 @@ section {
   gap: 40px;
   margin-bottom: 40px;
   padding: 30px;
-  background: white;
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  border-left: 4px solid #A53860;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  border-left: 4px solid white;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .experience-year {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #A53860;
+  color: white;
   text-align: center;
-  padding: 10px 15px;
-  background: rgba(165, 56, 96, 0.1);
+  padding: 15px 15px;
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   align-self: start;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .experience-content h3 {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #333;
+  color: white;
   margin-bottom: 5px;
 }
 
 .experience-content h4 {
   font-size: 1rem;
-  color: #A53860;
+  color: rgba(255, 255, 255, 0.8);
   margin-bottom: 15px;
 }
 
@@ -498,7 +514,7 @@ section {
   padding-left: 20px;
   margin-bottom: 8px;
   position: relative;
-  color: #666;
+  color: rgba(255, 255, 255, 0.9);
   line-height: 1.6;
 }
 
@@ -506,7 +522,7 @@ section {
   content: '▶';
   position: absolute;
   left: 0;
-  color: #EF88AD;
+  color: white;
   font-size: 0.8rem;
 }
 
