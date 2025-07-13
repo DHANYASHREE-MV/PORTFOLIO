@@ -1,15 +1,69 @@
 {
-  "timestamp": "2025-07-13T09:35:00.028494",
+  "timestamp": "2025-07-13T09:36:12.319608",
   "backend_url": "https://7354c160-6bd2-4967-afee-c852c2bb19f3.preview.emergentagent.com/api",
-  "passed_tests": 0,
-  "failed_tests": 1,
-  "success": false,
+  "passed_tests": 10,
+  "failed_tests": 0,
+  "success": true,
   "test_results": [
     {
       "test": "Health Check",
-      "passed": false,
-      "message": "Connection error: Expecting value: line 1 column 1 (char 0)",
-      "timestamp": "2025-07-13T09:35:00.028074"
+      "passed": true,
+      "message": "API root endpoint working as health check",
+      "timestamp": "2025-07-13T09:36:12.084342"
+    },
+    {
+      "test": "Root API Endpoint",
+      "passed": true,
+      "message": "Root endpoint working correctly",
+      "timestamp": "2025-07-13T09:36:12.142003"
+    },
+    {
+      "test": "Portfolio Data",
+      "passed": true,
+      "message": "Complete portfolio data with 4 projects",
+      "timestamp": "2025-07-13T09:36:12.161878"
+    },
+    {
+      "test": "Skills Data",
+      "passed": true,
+      "message": "Skills categorized correctly with 20 total skills",
+      "timestamp": "2025-07-13T09:36:12.186097"
+    },
+    {
+      "test": "Projects Data",
+      "passed": true,
+      "message": "All 4 projects returned with correct structure",
+      "timestamp": "2025-07-13T09:36:12.202372"
+    },
+    {
+      "test": "Experience Data",
+      "passed": true,
+      "message": "Experience data with 2 entries returned correctly",
+      "timestamp": "2025-07-13T09:36:12.219598"
+    },
+    {
+      "test": "Education Data",
+      "passed": true,
+      "message": "Education data with 2 entries returned correctly",
+      "timestamp": "2025-07-13T09:36:12.240084"
+    },
+    {
+      "test": "Portfolio Stats",
+      "passed": true,
+      "message": "Stats: 4 projects, 15 technologies, 0 messages",
+      "timestamp": "2025-07-13T09:36:12.260838"
+    },
+    {
+      "test": "Contact Form Submission",
+      "passed": true,
+      "message": "Contact message saved with ID: d5bb994b-2e1b-4ea6-b78a-dbe353a78889",
+      "timestamp": "2025-07-13T09:36:12.300315"
+    },
+    {
+      "test": "Contact Form Validation",
+      "passed": true,
+      "message": "Properly rejects invalid data with 422 status",
+      "timestamp": "2025-07-13T09:36:12.319153"
     }
   ]
 }
