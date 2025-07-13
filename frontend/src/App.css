@@ -336,6 +336,19 @@ section {
 }
 
 /* Education Section */
+.education-section {
+  background: linear-gradient(135deg, #3A0519 0%, #670D2F 100%);
+  color: white;
+}
+
+.education-section .section-title {
+  color: white;
+}
+
+.education-section .section-title::after {
+  background: linear-gradient(90deg, #EF88AD, white);
+}
+
 .education-timeline {
   max-width: 800px;
   margin: 0 auto;
@@ -347,38 +360,41 @@ section {
   gap: 40px;
   margin-bottom: 40px;
   padding: 30px;
-  background: white;
+  background: rgba(239, 136, 173, 0.1);
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  border-left: 4px solid #670D2F;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  border-left: 4px solid #EF88AD;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(239, 136, 173, 0.2);
 }
 
 .education-year {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #670D2F;
+  color: #EF88AD;
   text-align: center;
-  padding: 10px 20px;
-  background: rgba(103, 13, 47, 0.1);
+  padding: 15px 20px;
+  background: rgba(239, 136, 173, 0.2);
   border-radius: 10px;
   align-self: start;
+  border: 1px solid rgba(239, 136, 173, 0.3);
 }
 
 .education-content h3 {
   font-size: 1.4rem;
   font-weight: 700;
-  color: #333;
+  color: white;
   margin-bottom: 5px;
 }
 
 .education-content h4 {
   font-size: 1.1rem;
-  color: #A53860;
+  color: #EF88AD;
   margin-bottom: 10px;
 }
 
 .education-content p {
-  color: #666;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 /* Skills Section */
