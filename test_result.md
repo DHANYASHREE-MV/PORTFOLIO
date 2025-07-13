@@ -194,10 +194,7 @@ metadata:
   run_ui: false
 
 test_plan:
-  current_focus:
-    - "Portfolio API with complete resume data"
-    - "Contact form submission endpoint"
-    - "Portfolio data endpoints"
+  current_focus: []
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
